@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>FitPeo</groupId>
+	<artifactId>FitPeo</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+
+	<name>MVC 1.0 Blank Project (from https://github.com/making/mvc-1.0-blank)</name>
+
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source> <!-- Java version -->
+		<maven.compiler.target>1.8</maven.compiler.target> <!-- Java version -->
+	</properties>
+
+	<dependencies>
+		<!-- JUnit 5 (Jupiter) -->
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
+			<version>5.7.2</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-engine</artifactId>
+			<version>5.7.2</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- TestNG -->
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>7.10.2</version>
+			<scope>test</scope>
+		</dependency>
+		
+		<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.4.0</version>
+    <scope>test</scope>
+</dependency>
+
+
+		<!-- Selenium Java -->
+		<dependency>
+			<groupId>org.seleniumhq.selenium</groupId>
+			<artifactId>selenium-java</artifactId>
+			<version>4.21.0</version>
+		</dependency>
+
+		<!-- Apache POI -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi</artifactId>
+			<version>5.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml</artifactId>
+			<version>5.2.5</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-ooxml-schemas</artifactId>
+			<version>4.1.2</version>
+		</dependency>
+
+		<!-- Allure TestNG Integration -->
+		<dependency>
+			<groupId>io.qameta.allure</groupId>
+			<artifactId>allure-testng</artifactId>
+			<version>2.28.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.Cucumber.Demo</groupId>
+			<artifactId>Cucumber_Demo_BDD_Framework</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>Jenveda_Automation_Test_Work</groupId>
+			<artifactId>Jenveda_Automation_Test_Work</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<!-- Surefire plugin for running unit tests -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.22.2</version> <!-- More compatible with JUnit 5 and
+				TestNG -->
+			</plugin>
+
+			<!-- Failsafe plugin for integration tests (if you're separating
+			unit and integration tests) -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-failsafe-plugin</artifactId>
+				<version>2.22.2</version>
+			</plugin>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.8.1</version>  <!-- Version of the Maven Compiler
+				Plugin -->
+				<configuration>
+					<source>1.8</source>  <!-- Java source version -->
+					<target>1.8</target>  <!-- Java target version -->
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+</project>

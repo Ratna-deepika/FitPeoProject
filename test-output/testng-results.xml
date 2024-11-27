@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-25T12:48:45 IST" name="Default suite" finished-at="2024-11-25T12:49:09 IST" duration-ms="24670">
+    <groups>
+    </groups>
+    <test started-at="2024-11-25T12:48:45 IST" name="Default test" finished-at="2024-11-25T12:49:09 IST" duration-ms="24670">
+      <class name="com.FitPeo.TestClasses.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.FitPeo.TestClasses.LoginTest@446a1e84]" started-at="2024-11-25T12:48:45 IST" name="setUp" finished-at="2024-11-25T12:48:50 IST" duration-ms="4924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="TestHomePage()[pri:1, instance:com.FitPeo.TestClasses.LoginTest@446a1e84]" started-at="2024-11-25T12:48:50 IST" name="TestHomePage" finished-at="2024-11-25T12:48:52 IST" duration-ms="2611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestHomePage -->
+        <test-method signature="TestSlider()[pri:2, instance:com.FitPeo.TestClasses.LoginTest@446a1e84]" started-at="2024-11-25T12:48:52 IST" name="TestSlider" finished-at="2024-11-25T12:48:58 IST" duration-ms="5956" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestSlider -->
+        <test-method signature="TestCheckBoxes()[pri:3, instance:com.FitPeo.TestClasses.LoginTest@446a1e84]" started-at="2024-11-25T12:48:58 IST" name="TestCheckBoxes" finished-at="2024-11-25T12:49:06 IST" duration-ms="7540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCheckBoxes -->
+        <test-method signature="TestAdjustSliderAgain()[pri:4, instance:com.FitPeo.TestClasses.LoginTest@446a1e84]" started-at="2024-11-25T12:49:06 IST" name="TestAdjustSliderAgain" finished-at="2024-11-25T12:49:09 IST" duration-ms="3008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestAdjustSliderAgain -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.FitPeo.TestClasses.LoginTest@446a1e84]" started-at="2024-11-25T12:49:09 IST" name="tearDown" finished-at="2024-11-25T12:49:09 IST" duration-ms="428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.FitPeo.TestClasses.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
